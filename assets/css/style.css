@@ -1,0 +1,55 @@
+/* all one big block divided into parts */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    line-height: 1;
+
+
+    
+  }
+  /* element */
+  title {
+    border: none;
+    resize: none;
+    color: #7811bd;
+    /* border-left: 1px solid black; */
+    /* border: 1px solid #000000; */
+  }
+  
+  .jumbotron {
+    text-align:center;
+    color: black;
+    background-color: #4511bd;
+    /* border-radius: 0; */
+
+  }
+  
+  .textarea {
+    white-space: pre-wrap;
+    border: 1px solid #000000;
+    text-align: center;
+    height:fit-content;
+    font-size:x-large;
+  }
+
+/* timeblock ?*/
+  /* .row {
+    white-space: pre-wrap;
+    height: 55px;
+    border-top: 1px solid rgb(255, 255, 255);
+  } */
+  
+ /* class */
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+    border: 1px solid #000000;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }

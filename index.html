@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link
+        href="https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={96739db56d8d475dad049fca49fa349e}"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Weather Dashboard</title>
+</head>
+<!-- Start Jumbotron -->
+
+<body>
+    <header class="jumbotron">
+        <h1 class="display-4">Weather Dashboard</h1>
+        <p class="lead">The weather outlook for <b>multiple cities</b> that provides info for travel planning and help
+            you plan <b>your next adventure!</b>
+        </p>
+
+    </header>
+    <!-- End Jumbotron -->
+
+    <!-- CONTAINER CARDS start -->
+    <div class="form-container">
+        <h4>Search for a City:</h4>
+        <div class="form" id="cityForm">
+            <textarea class="col-4 textarea" id="city" placeholder="Enter city"></textarea>
+            <br>
+            <button class="col-4 submitBtn" type="submit" id="suBtn">Submit</button>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="./assets/js/code.js"></script>
+</body>
+
+</html>
