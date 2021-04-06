@@ -4,15 +4,13 @@ body {
     font-size: 14px;
     line-height: 1;
 
-
-    
   }
   /* element */
   title {
     border: none;
     resize: none;
     color: #7811bd;
-    /* border-left: 1px solid black; */
+    /* border-left: 15px ; */
     /* border: 1px solid #000000; */
   }
   
@@ -20,7 +18,8 @@ body {
     text-align:center;
     color: black;
     background-color: #4511bd;
-    /* border-radius: 0; */
+    border-radius: 0;
+    margin: 15px 15px 15px 15px;
 
   }
   
@@ -30,26 +29,27 @@ body {
     text-align: center;
     height:fit-content;
     font-size:x-large;
+    margin: 15px 15px 15px 15px;
   }
-
-/* timeblock ?*/
-  /* .row {
-    white-space: pre-wrap;
-    height: 55px;
-    border-top: 1px solid rgb(255, 255, 255);
-  } */
-  
+  h2 {
+    margin: 15px 15px 15px 15px;
+  }
  /* class */
-  .saveBtn {
+  .submitBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #7cc751;
+    color:black;
+    font-size:x-large;
     border: 1px solid #000000;
+    margin: 0 15px 15px 15px;
+    height:max-content;
   }
   
-  .saveBtn i:hover {
+  .submitBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
