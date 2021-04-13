@@ -1,28 +1,65 @@
-/* all one big block divided into parts */
+
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
     line-height: 1;
-
+    margin: 0;
   }
   /* element */
-  title {
-    border: none;
+  .header {
     resize: none;
-    color: #7811bd;
-    /* border-left: 15px ; */
-    /* border: 1px solid #000000; */
-  }
-  
-  .jumbotron {
+    line-height: 1;
     text-align:center;
-    color: black;
-    background-color: #4511bd;
+    color:antiquewhite;
+    font-weight:bolder;
+    background-color:rgb(147, 88, 185);
     border-radius: 0;
     margin: 15px 15px 15px 15px;
+    line-height: 1;
+    /* box-sizing: content-box; */
+    padding: 20px 35px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position:sticky;
 
+    /* background-image:url('./images/title-bckgrnd.png');
+    background-size: cover;
+background-attachment: fixed;
+background-position: 80%;
+z-index: 9999; */
+/* padding: 20px 35px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+position: -webkit-sticky;
+position:sticky;
+top: 0;
+background-image: url("assets/images/title-bckgrnd.png");
+background-size: cover;
+background-attachment: fixed;
+background-position: 80%;
+z-index: 9999; */
   }
-  
+
+  /* .jumbotron {
+    text-align:center;
+    color:antiquewhite;
+    font-weight:bolder; */
+    /* background-color:rgb(147, 88, 185); */
+    /* background-image:url('./images/title-bckgrnd.png'); */
+    /* border-radius: 0;
+    margin: 15px 15px 15px 15px;
+    line-height: 1;
+    box-sizing: content-box;
+    padding: .5rem 2rem;
+    position: -webkit-sticky;
+    position:sticky;
+  } */
+/* div h1 {
+  background-image:url('/assets/images/title-bckgrnd.png');
+} */
   .textarea {
     white-space: pre-wrap;
     border: 1px solid #000000;
@@ -53,3 +90,4 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+  

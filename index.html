@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <!--96739db56d8d475dad049fca49fa349e-->
-    <link href="https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={APItoken}"
+    <link
+        href="https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude=minutely,alerts&appid=96739db56d8d475dad049fca49fa349e$"
         rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/style.css" />
 
@@ -16,13 +17,13 @@
 <!-- Start Jumbotron -->
 
 <body>
-    <header class="jumbotron">
-        <h1>Weather Dashboard</h1>
+
+    <div class="jumbotron header">
+        <h1 class="col-12 ">Weather Dashboard</h1>
         <p class="lead">The weather outlook for <b>multiple cities</b> that provides info for travel planning and help
             you plan <b>your next adventure!</b>
         </p>
-
-    </header>
+    </div>
     <!-- End Jumbotron -->
 
     <!-- CONTAINER CARDS start -->
@@ -33,6 +34,9 @@
             <br>
             <button class="col-4 submitBtn" type="submit" id="suBtn">Submit</button>
         </div>
+
+        <span>C</span>
+
 
 
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
