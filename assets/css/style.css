@@ -1,4 +1,4 @@
-
+/*reference: Tutorial by http://youtube.com/CodeExplained */
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
@@ -78,14 +78,6 @@ header {
   margin: 0 5px;
   background-color: rgba(255,255,255, 1);
   border-radius: var(--border-radius);
-}
-
-.icon-danger {
-  color: rgb(255, 70, 70);
-}
-
-.icon-success {
-  color: rgb(29, 153, 255);
 }
 
 /* CARDS */
