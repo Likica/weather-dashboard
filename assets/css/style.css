@@ -55,7 +55,7 @@ p {
 }
 
 .hero {
-  padding: 3% 4%;
+  padding: 1% 2%;
 }
 
 header {
@@ -69,6 +69,8 @@ header {
   margin-bottom: 1%;
   margin-top: 0;
 }
+
+
 .weather-box {
   border: solid black 1pt;
 }
