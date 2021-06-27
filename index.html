@@ -6,41 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <!--96739db56d8d475dad049fca49fa349e-->
-    <link
-        href="https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude=minutely,alerts&appid=96739db56d8d475dad049fca49fa349e$"
-        rel="stylesheet" />
+
     <link rel="stylesheet" href="./assets/css/style.css" />
 
     <title>Weather Dashboard</title>
 </head>
 <!-- Start Jumbotron -->
 
-<body>
-
-    <div class="jumbotron header">
-        <h1 class="col-12 ">Weather Dashboard</h1>
+<body class="flex-column min-100-vh header">
+    <bg-layer></bg-layer>
+    <header class="hero">
+        <h1 class="col-12 app-title">Weather Dashboard</h1>
         <p class="lead">The weather outlook for <b>multiple cities</b> that provides info for travel planning and help
             you plan <b>your next adventure!</b>
         </p>
-    </div>
-    <!-- End Jumbotron -->
+    </header>
 
     <!-- CONTAINER CARDS start -->
-    <div class="form-container">
-        <h2>Search for a City:</h2>
-        <div class="form" id="cityForm">
-            <textarea class="col-4 textarea" id="city" placeholder="Enter city"></textarea>
-            <br>
-            <button class="col-4 submitBtn" type="submit" id="suBtn">Submit</button>
+    <!--Additional elements-->
+    <main class="flex-row justify-space-between">
+        <div class="col-12 col-md-4">
+            <div class="card">
+                <h3 class="card-header text-uppercase">Search By City</h3>
+                <form id="user-form" class="card-body">
+                    <label class="form-label" for="city">City</label>
+                    <input name="city" id="city" type="text" autofocus="true" class="form-input" />
+                    <button type="submit" class="col-4 getBtn">Get Weather</button>
+                </form>
+            </div>
+
+
         </div>
+        <!--Weather box containging weather for user searched city-->
+        <div class="col-12 col-md-8 weather-box">
+            <h2 class="subtitle">Showing Weather for: <span id="city-search-term"></span></h2>
+            <div id="weather-container" class="weather">
 
-        <span>C</span>
+            </div>
+        </div>
+        <!--Forecast container-->
+        <div id="forecast-container" class="flex-column min-100-vh list-days">
+        </div>
+        <div id="limit-warning">
+        </div>
+    </main>
 
-
-
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="./assets/js/code.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/code.js"></script>
 </body>
 
 </html>
