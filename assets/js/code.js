@@ -3,6 +3,7 @@ var userFormEl = document.querySelector("#user-form");
 var cityInputEl = document.querySelector("#city");
 var weatherContainerEl = document.querySelector("#weather-container");
 var forecastSearchTerm = document.querySelector("#forecast-search-term");
+var searchHistory = document.querySelector("#history-container")
 
 // My API key : 96739db56d8d475dad049fca49fa349e
 // <!--my API key: 96739db56d8d475dad049fca49fa349e-->

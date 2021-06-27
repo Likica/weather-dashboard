@@ -26,100 +26,6 @@ main {
 p {
   font-size: 1.2rem;
 }
-  /* element */
-  /* .header {
-    resize: none;
-    line-height: 1;
-    text-align:center;
-    color:antiquewhite;
-    font-weight:bolder;
-    background-color:rgb(147, 88, 185);
-    border-radius: 0;
-    margin: 15px 15px 15px 15px;
-    line-height: 1;
-  
-    padding: 20px 35px;
-   
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position:sticky; */
-    /* Using a <background-color> */
-/* Using a <bg-image> and <repeat-style> */
-/* background: url("title-bckgrnd.png") repeat-y; */
-
-/* Using a <box> and <background-color> */
-/* background: border-box red; */
-
-/* A single image, centered and scaled */
-/* background: no-repeat center/80% url("title-bckgrnd.png"); */
-    /* background: url(./assets/images/title-bckgrnd.png) gray 50% repeat fixed */
-    /* background-image:url('./images/title-bckgrnd.png');
-    background-size: cover;
-background-attachment: fixed;
-background-position: 80%;
-z-index: 9999; */
-/* padding: 20px 35px;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-position: -webkit-sticky;
-position:sticky;
-top: 0;
-background-image: url("assets/images/title-bckgrnd.png");
-background-size: cover;
-background-attachment: fixed;
-background-position: 80%;
-z-index: 9999; */
-  /* } */
-
-  /* .jumbotron {
-    text-align:center;
-    color:antiquewhite;
-    font-weight:bolder; */
-    /* background-color:rgb(147, 88, 185); */
-    /* background-image:url('./images/title-bckgrnd.png'); */
-    /* border-radius: 0;
-    margin: 15px 15px 15px 15px;
-    line-height: 1;
-    box-sizing: content-box;
-    padding: .5rem 2rem;
-    position: -webkit-sticky;
-    position:sticky;
-  } */
-/* div h1 {
-  background-image:url('/assets/images/title-bckgrnd.png');
-} */
-  /* .textarea {
-    white-space: pre-wrap;
-    border: 1px solid #000000;
-    text-align: center;
-    height:fit-content;
-    font-size:x-large;
-    margin: 15px 15px 15px 15px;
-  }
-  h2 {
-    margin: 15px 15px 15px 15px;
-  } */
- /* class */
-  /* .submitBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background-color: #7cc751;
-    color:black;
-    font-size:x-large;
-    border: 1px solid #000000;
-    margin: 0 15px 15px 15px;
-    height:max-content;
-  }
-  
-  .submitBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
-  } */
-  /* from css of gititdone */
 
  .btn {
   font-size: 1.3rem;
@@ -148,36 +54,9 @@ z-index: 9999; */
   display: inline;
 }
 
-/* .btn-back {
-  border-radius: var(--border-radius);
-  color: var(--primary);
-  border: none;
-  outline: none;
-  background-color: var(--light-dark);
-  box-shadow: 3px 3px var(--secondary);
-  transform: translate(-1px, -1px);
-  display: inline-block;
-  width: auto;
-  margin-top: 20px;
-  padding: 15px;
-  text-decoration: none;
-  font-size: 1.2rem;
-} */
-/* 
- .btn-back:hover {
-  color: var(--primary);
-  background-color: var(--tertiary);
-  transform: translate(0, 0);
-  box-shadow: 2px 2px var(--dark);
-} */
-
 .hero {
   padding: 3% 4%;
 }
-
-/* .hero p {
-  max-width: 75%;
-} */
 
 header {
   font-size: 3rem;
@@ -193,23 +72,6 @@ header {
 .weather-box {
   border: solid black 1pt;
 }
-/* .list-group {
-  padding: 0;
-  list-style: none;
-}
-
-.list-item {
-  margin-bottom: 10px;
-  padding: 1.5%;
-  border-radius: var(--border-radius);
-  background-color: var(--light-dark);
-  color: var(--primary);
-  text-decoration: none;
-}
-
-.list-item:hover {
-  background-color: var(--dark);
-} */
 
 .status-icon {
   padding: 2px 5px;
