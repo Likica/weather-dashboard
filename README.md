@@ -1,7 +1,7 @@
 <h1 align='center'>Weather Dashboard</h1>
 
 ### By likica * [Email me](mailto:fahrija_wyroski@live.com) * 
-  * [Deployed Appplication](https://www.github.com/likica.io/weather-dashboard) 
+  * [Deployed Appplication](https://likica.github.io/weather-dashboard/) 
 <br></br>
 
 <p align="center">
