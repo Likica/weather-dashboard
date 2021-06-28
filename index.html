@@ -7,9 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-
     <link rel="stylesheet" href="./assets/css/style.css" />
-
     <title>Weather Dashboard</title>
 </head>
 <!-- Start Jumbotron -->
@@ -22,7 +20,6 @@
             you plan <b>your next adventure!</b>
         </p>
     </header>
-
     <!-- CONTAINER CARDS start -->
     <!--Additional elements-->
     <main class="flex-row justify-space-between">
@@ -33,14 +30,20 @@
                     <label class="form-label" for="city">City</label>
                     <input name="city" id="city" type="text" autofocus="true" class="form-input"
                         placeholder="search city" />
-                    <button type="submit" class="col-4 getBtn">Get Weather</button>
+                    <button id="search" type="submit" class="col-4 getBtn">Get Weather</button>
                 </form>
             </div>
             <!--Search history-->
-            <div id="history-container" class="flex-column search-history">
-                <h3 class="history-title">Search History</h3>
+            <div id="history-container" class="col-12 col-md-6 flex-column search-history">
+                <div>
+                    <h3 class="history-title">Search History</h3>
+                </div>
                 <div class="flex flex-wrap">
                     <!-- Place history from previous searches here-->
+                    <button>1</button> <br>
+                    <button>2</button> <br>
+                    <button>3</button> <br>
+                    <button>4</button> <br>
                 </div>
             </div>
         </div>
@@ -50,18 +53,23 @@
             <h2 class="subtitle">Showing Weather for: <span id="city-search-term"></span></h2>
             <div id="weather-container" class="weather">
                 <!--Need results of the search here: current-day weather, city-name, current-date, weather-icon, temperature-now, wind-now, humidity-now, UV-index-->
+                <div id="city" class="weather-city col-md-4"></div>
+                <div id="icon" class="weather-city"></div>
+                <div id="date" class="weather-city"></div>
+                <div id="temp" class="weather-city"></div>
+                <div id="wind" class="weather-city"></div>
+                <div id="humidity" class="weather-city"></div>
+                <div id="uvi" class="weather-city"></div>
             </div>
         </div>
+
         <!--Forecast container-->
+        <div id="forecast-container" class="col-12 col-md-8 forecast-search flex-row">
+            <h3 class="subtitle">Forecast <span id="forecast-container"></span></h3>
 
-        <div id="forecast-container" class="flex-column min-100-vh list-days forecast-search">
-            <!-- <h2 class="forecast-title">Forecast</h2> -->
             <!--Need results of the forecast here (with same elements as in weathernow)-->
-
         </div>
-
     </main>
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./assets/js/code.js"></script>
 </body>

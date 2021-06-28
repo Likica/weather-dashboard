@@ -7,10 +7,7 @@ body {
   }
   h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-weight: 700;
   margin: 0;
   color:powderblue;
@@ -27,31 +24,11 @@ p {
   font-size: 1.2rem;
 }
 
- .btn {
-  font-size: 1.3rem;
-  text-decoration:none;
-  padding: 6px 5px;
-  width: 100%;
-  display: block;
-  margin: 5px 0;
-  border-radius: var(--border-radius);
-  color: rgba(128, 243, 143, 0.541);
-  border: none;
-  outline: none;
-  background-color: rgba(63, 41, 150, 0.5);
-  box-shadow: 3px 3px rgba(129, 46, 118, 0.5);
-  transform: translate(-1px, -1px);
-}
-
  .btn:hover {
   color: rgba(149, 151, 241, 0.5);
   background-color: rgba(209, 231, 130, 0.5);
   transform: translate(0, 0);
   box-shadow: 2px 2px var(--dark);
-}
-
-.btn-inline {
-  display: inline;
 }
 
 .hero {
@@ -73,13 +50,13 @@ header {
 
 .weather-box {
   border: solid black 1pt;
+  margin: 0 5px;
 }
 
-.status-icon {
-  padding: 2px 5px;
+.forecast-search {
+  border: solid black 1pt;
   margin: 0 5px;
-  background-color: rgba(255,255,255, 1);
-  border-radius: var(--border-radius);
+  padding: 0px 15px;
 }
 
 /* CARDS */
@@ -122,18 +99,18 @@ header {
 }
 
 /* HEIGHT / WIDTH UTILS */
-.min-100-vh {
+/* .min-100-vh {
   min-height: 100vh;
 }
 
 .min-100-vw {
   min-width: 100vw;
-}
+} */
 
 /* FONT UTILS */
-.text-uppercase {
+/* .text-uppercase {
   text-transform: uppercase;
-}
+} */
 
 
 /* FLEX CONTENT */
@@ -147,7 +124,7 @@ header {
   flex-direction: column;
   flex-wrap: wrap;
 }
-
+/* 
 .justify-space-between {
   justify-content: space-between;
 }
@@ -233,7 +210,7 @@ header {
 }
 
 /* col-sm */
-@media screen and (min-width: 640px) {
+/* @media screen and (min-width: 640px) {
   .col-sm-1 {
     flex: 0 0 calc(100% * 1 / 12 - 2%);
   }
@@ -336,6 +313,7 @@ header {
 }
 
 /* col-lg */
+/*
 @media screen and (min-width: 992px) {
   .col-lg-1 {
     flex: 0 0 calc(100% * 1 / 12 - 2%);
@@ -384,9 +362,10 @@ header {
   .col-lg-12 {
     flex: 0 0 100%;
   }
-}
+} */
 
 /* col-xl */
+/*
 @media screen and (min-width: 1200px) {
   .col-xl-1 {
     flex: 0 0 calc(100% * 1 / 12 - 2%);
@@ -435,4 +414,4 @@ header {
   .col-xl-12 {
     flex: 0 0 100%;
   }
-}
+} */
